@@ -1,15 +1,20 @@
 REPORT zrdv_aie_lab03.
 
+**********************************************************************
 CLASS lcl_monster DEFINITION.
+**********************************************************************
 
 PUBLIC SECTION.
     METHODS: main.
 
 ENDCLASS.
 
+**********************************************************************
 CLASS lcl_monster IMPLEMENTATION.
+**********************************************************************
 
 METHOD main.
+
 * Local Variables
   DATA: monster_madness1 TYPE i,
         monster_madness2 TYPE i,
